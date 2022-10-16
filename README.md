@@ -2,7 +2,8 @@
 
 
 ##Create cluster 
-### gcloud beta dataproc clusters create hw2 \
+
+gcloud beta dataproc clusters create hw2 \
 --region=us-east1 \
 --optional-components=ANACONDA,JUPYTER \
 --image-version=1.4 \
