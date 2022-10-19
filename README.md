@@ -9,7 +9,7 @@ gcloud beta dataproc clusters create hw2 \
 --image-version=1.4 \
 --enable-component-gateway \
 --initialization-actions=gs://dataproc-initialization-actions/python/pip-install.sh,gs://dataproc-initialization-actions/connectors/connectors.sh \
---metadata "PIP_PACKAGES=requests_oauthlib google-cloud-bigquery tweepy==3.1.0" \
+--metadata "PIP_PACKAGES=requests_oauthlib google-cloud-bigquery tweepy==4.6.0" \
 --metadata gcs-connector-version=1.9.16 \
 --metadata bigquery-connector-version=1.0.0 \
 --project big-data-6893-362317 \
